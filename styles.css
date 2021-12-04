@@ -17,6 +17,17 @@ body {
   background-color: var(--Dark-cyan);
 }
 
+.container {
+  margin: 30% 50% 5% 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 60vh;
+  border-radius: 10px;
+}
 /* Attribution */
 .attribution {
   font-size: 11px;
