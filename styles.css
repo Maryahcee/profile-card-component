@@ -108,6 +108,7 @@ td:nth-child(2) {
 @media (max-widht: 600px) {
   .container {
     width: 20rem;
+    background-color: white;
   }
   .main {
     width: 20rem;
