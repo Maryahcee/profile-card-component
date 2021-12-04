@@ -28,6 +28,12 @@ body {
   height: 60vh;
   border-radius: 10px;
 }
+
+.prof-img img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+}
 /* Attribution */
 .attribution {
   font-size: 11px;
