@@ -23,17 +23,17 @@ body {
 
 main {
   display: flex;
+  align-items: center;
   justify-content: center;
   height: 100vh;
-  align-items: center;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #f0f0f0;
   align-items: center;
   justify-content: center;
+  background-color: #f0f0f0;
   max-width: 100vh;
   border-radius: 10px;
   font-family: "Kumbh Sans", sans-serif;
@@ -41,7 +41,6 @@ main {
 
 .top img {
   border-radius: 10px 10px 0 0;
-  width: 24.3rem;
   max-width: 100vh;
 }
 
@@ -89,6 +88,7 @@ th {
 td {
   color: var(--Dark-gray);
   padding: 0 15px 15px;
+  font-weight: 400;
 }
 
 td:nth-child(2) {
@@ -103,4 +103,13 @@ td:nth-child(2) {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-widht: 600px) {
+  .container {
+    width: 20rem;
+  }
+  .main {
+    width: 20rem;
+  }
 }
